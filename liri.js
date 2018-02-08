@@ -74,7 +74,7 @@ function spotifySong(parameter) {
 				console.log("Artist: " + data.tracks.items[i].artists[0].name);
 				console.log("Track: " + data.tracks.items[i].name);
 				console.log("Album: " + data.tracks.items[i].album.name);
-				console.log("Check this song out on Spotify: " + data.tracks.items[i].external_urls.spotify);
+				console.log("Link to Spotify: " + data.tracks.items[i].external_urls.spotify);
 				console.log("");
 			}
   		}
